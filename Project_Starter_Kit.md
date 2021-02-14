@@ -1,8 +1,12 @@
 # Project Starter Kit
 
-*Start project:* 
+*Create project:* 
 
 `npm create-react-app <appname>`. NOTE: No capitals, use dashes for composite names.
+
+*Run project:*
+
+`npm start`
 
 *Basic packages to install ASAP:*
 
