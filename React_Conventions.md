@@ -2,7 +2,7 @@
 
 -    CamelCase component names
 -    Functional components > Class components when there is no state to manage
--    Comments in the returned JSX space are left in `{/\*syntax like this\*/}`
+-    Comments in the returned JSX space are left in `{/* syntax like this */}`
 ```JSX
 return (
     {/*TODO: make a more interesting example*/}
