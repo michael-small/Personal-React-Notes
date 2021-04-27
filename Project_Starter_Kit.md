@@ -10,13 +10,15 @@
 
 ### *Basic packages to install ASAP:*
 
-`npm install react-router-dom`
+`npm i react-router-dom`
 
-`npm install @material-ui/core`
+`npm i @material-ui/core`
 
-`npm install @material-ui/icons`
+`npm i @material-ui/icons`
 
-`npm install axios`
+`npm i axios`
+
+`npm i sass`
 
 ### *CSS essentials:*
 Set body to be size of viewport: [example + reasoning](https://github.com/michael-small/personal-site/commit/535b0f58b37e47b920d6acd392b5b48ffbab9dee)
