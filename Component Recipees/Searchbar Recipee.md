@@ -1,17 +1,11 @@
-# Component Recipees
-
-I return to my previous code across a lot of projects of mine often. Here are some samples of components or other concepts that I can/have re-used.
-
-Indentations of component layouts are parent/child relations.
-
-## Searchbar
+# Searchbar
 
 *Components*
 * `Cockpit FC`
   * `SearchBar FC`
   * `Items FC`
 
-#### Explanation:
+### Explanation:
 
 1) Parent component (`Cockpit FC`) passes a `useState` hook's value and setter to `Search FC`. 
 2) Search's text field has an `onChange` that evokes the parents hook state setter.
@@ -62,7 +56,8 @@ export default function Search(props) {
 	);
 }
 ```
-#### Example from my Ed's Garage Sale project: 
+
+### Example from my Ed's Garage Sale project: 
 
 * [`Cockpit FC`](https://github.com/michael-small/Eds-Garage-Sale/blob/master/client/src/components/Cockpit/Cockpit.js)
 * [`Search FC`](https://github.com/michael-small/Eds-Garage-Sale/blob/master/client/src/components/Search/Search.js)
