@@ -1,6 +1,6 @@
 # Hooks
 
-The way that Styled Components uses hooks, the components should be declared in a file above the use of other hooks. For example, the following is fine:
+The way that Styled Components uses hooks, the components should be declared in a styled constructor above the use of other hooks. For example, the following is fine:
 
 ```jsx
 export default function BlogPosts() {

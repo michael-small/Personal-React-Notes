@@ -33,7 +33,7 @@ export default function Cockpit(props) {
 	const filteredItems= filterItems(items, searchQuery);
 
 	return (
-    	<div>
+    		<div>
 			<Search search={searchQuery} updateSearch={setSearchQuery} />
 			<Items items={filteredItems} />
 		</div>
