@@ -16,6 +16,8 @@
 
 `npm install @material-ui/icons`
 
+`npm install axios`
+
 ### *CSS essentials:*
 Set body to be size of viewport: [example + reasoning](https://github.com/michael-small/personal-site/commit/535b0f58b37e47b920d6acd392b5b48ffbab9dee)
 ```css
